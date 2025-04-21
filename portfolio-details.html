@@ -103,11 +103,11 @@
 
             <h2>Meet-Magnet</h2>
 
-            <p><strong>Périodes</strong>: Mai - Juin 2024</p>
+            <p><strong>Périodes</strong>2024 - 2025</p>
 
             <p>Meet Magnet est une startup innovante spécialisée dans la recherche avancée de prospects. Fondée par Etienne Douillard et Matthias Robert, l'entreprise se consacre à identifier les individus ayant la plus forte probabilité d'être intéressés par l'offre de leurs clients. Grâce à des techniques de ciblage de pointe, Meet Magnet optimise la prospection commerciale, garantissant ainsi une efficacité maximale pour ses partenaires. J'ai eu le privilège d'y effectuer mon stage, contribuant à cette mission ambitieuse et enrichissante.</p>
 
-              Compétences : <strong>NoCode (N8N), Python, JavaScript, API, Notion, GIT</strong>.
+              Compétences : <strong>NoCode (N8N), Python, JavaScript, TypeScript, NuxtJS, PgSQL API, Notion, GIT</strong>.
 
             <ul>
 
@@ -120,9 +120,18 @@
               </li>
 
               <li>
+                <p class="m-0 p-0">Développer la présence en ligne de l’organisation</p>
+              </li>
+
+              <li>
+                <p class="m-0 p-0">Gérer le patrimoine informatique</p>
+              </li>
+
+              <li>
                 <p class="m-0 p-0">Travailler en mode projet.</p>
               </li>
 
+          
             </ul>
 
             </p>
@@ -137,7 +146,7 @@
 
           <div class="col-lg-9">
 
-            <h3>Les missions</h3>
+            <h3>Les missions 1ère année</h3>
 
             <ul>
 
@@ -145,9 +154,26 @@
 
               <li>Création et amélioration de Workflow en NoCode de recherche d'URL Linkedin quotidienement.</li>
 
+              <li>Création d'un workflow de backup </li>
+
               <li>Développement de plusieurs API en Python afin de répondre à une demande client, ainsi qu'une demande interne afin de réduire les coûts de l'entreprise. </li>
 
               <li>Déploiement des API sur un VPS Ubuntu</li>
+
+            </ul>
+
+            <h3>Les missions 2ème année</h3>
+
+            <ul>
+
+              <li>Création d’un système de recherche d’influenceurs pour des clients existant en NoCode</li>
+
+              <li>Modélisation et intégration de la nouvelle base donnée PGSQL sur Supabase</li>
+
+              <li>Création et déploiement d’un petit site web avec l’outil AppSmith permettant aux clients de pouvoir envoyer des messages ou des invitations en masses à leurs réseaux
+              </li>
+
+              <li>Refonte du site de MeetMagnet en NuxtJS</li>
 
             </ul>
 
@@ -159,7 +185,132 @@
 
         <div class="row">
 
-          <h3>Travail en mode projet</h3>
+          <h3>Répondre aux incidents et aux demandes d’assistance et d’évolution.</h3>
+        
+          <div class="container d-flex flex-column">
+        
+            <p class="mb-4">
+              En collaboration avec mon camarade de classe avec qui je fais mon stage, nous avons eu pour première mission de réaliser une migration de base de données, 
+              la BDD était sur Google Sheet et n'était pas assez performante car il fallait minimum 5000 requêtes par seconde. Après une analyse approfondie, nous avons décidé d'opter pour MongoDB.
+              Nous avons ensuite migré leurs données de Google Sheets vers MongoDB, en adaptant chaque nœud nécessaire dans leur workflow sur n8n. 
+              Initialement choisi pour sa clarté visuelle, Google Sheets a été remplacé par MongoDB pour mieux répondre à leurs besoins croissants.
+            </p>
+        
+            <div class="container d-flex justify-content-start mb-4">
+              <img src="assets/img/portfolio/meetmagnet/bddBefore.jpg" width="50%" class="me-3" alt="">
+              <img src="assets/img/portfolio/meetmagnet/bddAfter.jpg" width="50%" alt="">
+            </div>
+        
+            <p class="mb-4">
+              J'ai aussi créé un workflow permettant de rechercher des influenceurs LinkedIn pour des clients existants et ainsi trouver des prospects potentiels,
+              car initialement ce processus était réalisé manuellement et prenait beaucoup de temps.
+              Le workflow permet donc de récupérer les influenceurs existants des clients et de chercher des profils similaires sur LinkedIn, 
+              en triant les bons profils via des calculs tels que le nombre de posts mensuels, leur nombre de likes et la pertinence du profil.
+              Si les profils sont bon alors que je les envoies sur un tableau Notion avec toutes les informations nécéssaires.
+            </p>
+        
+            <div class="container d-flex flex-column align-items-start mb-4">
+              <img src="assets/img/portfolio/meetmagnet/influenceurs.png" width="100%" class="mb-3" alt="">
+            
+              <img src="assets/img/portfolio/meetmagnet/NotionInflu.PNG" width="100%" alt="">
+            </div>
+        
+          </div>
+        
+        </div>
+
+        <div class="border m-5"></div>
+
+        <div class="row">
+
+          <h3>Mettre à disposition des utilisateurs un service informatique.</h3>
+        
+          <div class="container d-flex flex-column align-items-center">
+
+            <p class="mb-4 col-12">
+              Durant mes deux années de stage, j'ai eu la chance de pouvoir développer et déployer plusieurs applications.
+              Lors de ma première année de stage, j'ai pu développer et déployer une API en Python3 permettant de compter le nombre de mots d'un site afin de permettre 
+              à l'un des clients de prévoir le prix pour une traduction de site.
+          
+              Une fois développée, je l'ai déployée sur le VPS de l'entreprise afin de pouvoir l'utiliser facilement. Pour ce faire, j'ai dû créer un venv 
+              afin d'isoler les dépendances et j'ai utilisé Gunicorn afin de pouvoir appeler l'API.
+            </p>
+          
+            <img src="assets/img/portfolio/meetmagnet/VPS API.png" width="50%" class="mb-3" alt="">
+            <img src="assets/img/portfolio/meetmagnet/unpeudecode.PNG" width="50%" class="mb-3" alt="">
+            <img src="assets/img/portfolio/meetmagnet/motScreen.PNG" width="50%" class="mb-5" alt="">
+          
+            <p class="mb-4 col-12">
+              Lors de ma deuxième année de stage avec mon camarade de classe, nous avons eu pour mission de créer un MVP permettant aux clients de pouvoir 
+              envoyer des messages ou des invitations en masse à leurs réseaux.
+              Nous avons donc utilisé l'outil AppSmith qui est un outil LowCode permettant de créer des applications web rapidement en s'appuyant sur des BDD MongoDB et du JavaScript.
+            </p>
+          
+            <img src="assets/img/portfolio/meetmagnet/appsmith.png" width="50%" class="mb-3" alt="">
+            <img src="assets/img/portfolio/meetmagnet/jsappsmith.png" width="50%" class="mb-3" alt="">
+            <img src="assets/img/portfolio/meetmagnet/mongodb.png" width="50%" alt="">
+            <img src="assets/img/portfolio/meetmagnet/appsmithapi.png" width="50%" alt="">
+
+          
+          </div>
+        
+        </div>
+
+        <div class="border m-5"></div>
+
+        <div class="row">
+
+          <h3>Développer la présence en ligne de l’organisation</h3>
+        
+          <div class="container d-flex flex-column align-items-center">
+        
+            <p class="mb-4 col-12">
+              Lors du deuxième stage, en collaboration avec mes camarades, nous avons eu pour mission de faire la refonte de l'application MeetMagnet, 
+              initialement développée sur Bubble. Pour ce faire, nous avons travaillé sur une nouvelle version en Vue.js / Nuxt.js (un framework JavaScript), 
+              avec Supabase en backend.
+              <br><br>
+              J'ai pu développer plusieurs fonctionnalités telles que la modification d'une séquence pour un lead, 
+              ainsi que la possibilité de changer le statut d'un lead en "Mauvais profil".
+
+              J'ai aussi modifier du code existant afin de l'adapter a la nouvelle version de la BDD développée sur Supabase.
+
+            </p>
+        
+            <img src="assets/img/portfolio/meetmagnet/Mauvais Profil.png" width="50%" class="mb-3" alt="">
+            <img src="assets/img/portfolio/meetmagnet/sequencelead.png" width="30%" class="mb-3" alt="">
+        
+          </div>
+        
+        </div>
+        
+
+        <div class="border m-5"></div>
+
+        <div class="row">
+
+          <h3>Gérer le patrimoine informatique</h3>
+
+          <div class="container d-flex flex-column align-items-center">
+
+            <p class="mb-4 col-12">
+              J'ai développé un workflow avec un camarade sur n8n qui automatise la récupération, la conversion en JSON et le stockage des workflows 
+              existants dans un dossier dédié sur Google Drive, identifié par la date du jour. De plus, le workflow inclut une fonctionnalité 
+              de nettoyage automatique qui supprime les sauvegardes datant de plus de 30 jours, permettant ainsi une gestion efficiente de l'espace de stockage et 
+              évitant tout gaspillage inutile de ressources.
+          </p>
+
+            <img src="assets/img/portfolio/meetmagnet/dailyBackup.png" width="80%" alt="">
+
+          </div>
+
+        </div>
+
+        <div class="border m-5"></div>
+
+
+        <div class="row">
+
+          <h3>Travailler en mode projet</h3>
 
           <div class="container d-flex justify-content-around">
 
