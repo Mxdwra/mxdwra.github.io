@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>GLPI</title>
+
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <div id="portfolio-details" class="portfolio-details">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+
+            <div class="portfolio-details-slider swiper">
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+
+                  <img src="assets/img/portfolio/GLPI/GLPI.png" alt="">
+
+                </div>
+
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <h2>GLPI</h2>
+
+            <p>GLPI est un système open source de gestion de parc informatique, de suivi des incidents et de centre de services</p>
+
+              Compétences : <strong>Linux, Machine Virtuelle</strong>.
+
+            <ul>
+
+              <li>
+                <p class="m-0 p-0">Gérer le patrimoine informatique</p>
+              </li>
+
+          
+            </ul>
+
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="border m-5"></div>
+
+        <div class="row">
+
+          <div class="col-lg-9">
+
+            <h3>Les missions</h3>
+
+            <ul>
+
+              <li>Installer et à procéder à une première configuration de GLPI (sur machine virtuelle) </li>
+
+              <li>Vérifier la bonne remontée des éléments d’interconnexion via le plugin FusionInventory (sur machines virtuelles) </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="border m-5"></div>
+
+        <div class="row">
+
+          <h3>Gérer le patrimoine informatique</h3>
+
+        
+          <div class="container d-flex flex-column">
+        
+            <p class="mb-4">
+              <h1>Installation de GLPI sur VM </h1>
+
+              Tout d'abord, j'ai du préparer la machine virtuelle en installant Apache2, MariaDB et PHP, ensuite j'ai créer une base de 
+              données pour GLPI, j'ai télécharger GLPI via <a href="https://github.com/glpi-project/glpi/" target="_blank">Github</a> Puis j'ai
+              installé le logiciel sur la VM.
+
+            </p>
+        
+            <div class="container d-flex flex-column align-items-start mb-4">
+              <img src="assets/img/portfolio/GLPI/BDD GLPI.PNG" width="100%" class="me-3" alt="">
+              <img src="assets/img/portfolio/GLPI/glpi installer.PNG" width="100%" alt="">
+              <img src="assets/img/portfolio/GLPI/GLPI checkup.PNG" width="100%" class="me-3" alt="">
+              <img src="assets/img/portfolio/GLPI/GLPI installed.png" width="100%" class="me-3" alt="">
+            </div>
+        
+            <p class="mb-4">
+              <h1>Installation du plugin FusionInventory</h1>
+              Une fois GLPI installer, j'ai pu installer le plugin FusionInventory qui permet de remonter les 
+              informations matériels et logiciels sur GLPI.
+              <br><br>
+              J'ai donc télécharger le plugin via <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/">Github</a>
+               et je l'ai installé sur GLPI, il suffit de le mettre dans le dossier plugins et de l'activer sur glpi.
+            </p>
+        
+            <div class="container d-flex flex-column align-items-start mb-4">
+              <img src="assets/img/portfolio/GLPI/activer fusion.png" width="100%" class="mb-3" alt="">
+            </div>
+
+            <p class="mb-4">
+              <h1>Installation de FusionInventory Agent</h1>
+              J'ai installer FusionInventory Agent sur une VM windows afin de pouvoir remonter les informations de la machine sur GLPI.
+              <br><br>
+              J'ai donc télécharger l'agent via <a href="https://github.com/fusioninventory/fusioninventory-agent/releases">Github</a>
+            </p>
+        
+            <div class="container d-flex flex-column align-items-start mb-4">
+              <img src="assets/img/portfolio/GLPI/fusionInventory Agent.png" width="100%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/GLPI/FusionInventory Agent2.png" width="100%" class="mb-3" alt="">
+            </div>
+
+            <p class="mb-4">
+              Le poste remonte bien sur le serveur GLPI
+            </p>
+            
+            <div class="container d-flex flex-column align-items-start mb-4">
+              <img src="assets/img/portfolio/GLPI/GLPI1.png" width="100%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/GLPI/GLPI2.png" width="100%" class="mb-3" alt="">
+            </div>
+        
+          </div>
+        
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

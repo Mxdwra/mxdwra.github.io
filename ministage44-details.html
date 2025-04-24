@@ -114,10 +114,6 @@
 
               <li>Amélioration du site</li>
 
-              <li>Conception d'une nouvelle base de donnée</li>
-
-              <li>Développement d'une nouvelle version en Symfony </li>
-
             </ul>
 
           </div>
@@ -173,6 +169,7 @@
         <div class="row">
 
           <h3>Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+          <h1>Corrections de bugs</h1>
 
           <p>Dés le début du projet, nous nous sommes répartis en 4 équipes (ADMIN, PROGRAMMATION, RESERVANT, CONSULTANT) afin de répérer efficacement tout 
             les problèmes sur le site notamment de nombreux bugs.
@@ -199,7 +196,6 @@
           <div class="container d-flex justify-content-start">
 
             <img src="assets/img/portfolio/ministage44/maildev.png" width="50%" alt="">
-            <p>Très simple a mettre en place, il suffit de lancer la commande : docker run -p 1080:1080 -p 1025:1025 maildev/maildev</p>
           </div>
 
           <p>J'ai aussi travaillé sur le problème concernant la génération de la convention car il y avait un problème avec HTML2PDF qui utilisait composer, 
@@ -211,20 +207,39 @@
 
         <div class="border m-5"></div>
 
-        <div class="row">
+          <div class="row">
 
-          <h3>Développer la présence en ligne de l’organisation</h3>
-
-          <p>
-            Avec mes camarades nous avons reçu des tâches de la part du porteur de projet, mais nous avons aussi suggérer des amélioration au porteur de projet afin d'améliorer le site web actuel,
+            <h3>Développer la présence en ligne de l’organisation</h3>
+            <h1>Sécurisation de l'application et amélioration du système d'envoie d'e-mail</h1>
+          
+            <div class="container d-flex flex-column align-items-center">
+          
+              <p class="mb-4 col-12">
+                Avec mes camarades nous avons reçu des tâches de la part du porteur de projet, mais nous avons aussi suggérer des amélioration au porteur de projet afin d'améliorer le site web actuel,
             Nous avons donc travailler sur une version en PHP pur et une version en Symfony 7 qui sera continuer par les promotions futurs du BTS.
+
+            <br>
 
             Pour ma part j'ai travaillé sur la sécurisation de l'application existante, étant donner que le site possaidait de nombreuses failles de sécurités, le site était exposé aux injections SQL et les mot de passes étaient stocker en clair en BDD.
             J'ai donc du adapté le code existant pour le rendre plus sécurisé notamment en adaptant les requetes SQL en utilisant des requetes préparées plus sécurisé et en hashant les mot de passes.
+            
+            <br>
 
             Ayant déjà travaillé sur l'envoi de mail, j'ai aussi améliorer le système d'envoie de mail qui envoyait initialement le mot de passe en clair par mail. J'ai donc développer un système de réinitialisation 
             de mot de passe qui envoie un lien par mail à l'utilisateur d'un durée de 48H lui permettant de réinitialiser son mot de passe.
-          </p>
+  
+              </p>
+          
+              <img src="assets/img/portfolio/ministage44/loginHash.png" width="50%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/ministage44/resetpwd2.png" width="50%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/ministage44/maildev.png" width="50%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/ministage44/resetpreuve.png" width="50%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/ministage44/mail.png" width="50%" class="mb-3" alt="">
+              <img src="assets/img/portfolio/ministage44/resetmdp.png" width="50%" class="mb-3" alt="">
+
+            </div>
+          
+          </div>
 
           <div class="container d-flex justify-content-start">
 
